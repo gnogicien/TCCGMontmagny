@@ -5,6 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
+    <title> tarif</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <style>
         body    {
@@ -19,7 +20,8 @@ and open the template in the editor.
         h3      {
                 background:url("entetetarif.jpeg");
                 height:270px;
-                width: 1000px;               
+                width: 1000px;
+                margin-left:150px;
                 }
                 
         h4      {
@@ -27,13 +29,11 @@ and open the template in the editor.
                 
                 }
                 
-        a       {
-                
-                } 
-                
-            .lien   {
-                    margin-left:1025px;
-                    }   
+        li{
+                float:left;
+                padding: 10px;
+                list-style-type:none;
+          } 
                     
         div     {
                 text-align: justify;
@@ -44,11 +44,19 @@ and open the template in the editor.
                 padding-bottom: 35px;
                 
                 }
-                .paragraphe1    {
-                                margin-top: 470px;
+                .paragraphe1{
+                                margin-top: 150px;
                                 padding-bottom:10px;
                                 
-                                }
+                            }
+                .lien{
+                        background:none;
+                        list-style: none;
+                        text-align: center;
+                        font-size: 30px;
+                        margin-left:180px;
+                     }
+ 
         p       {
                 text-indent:2em;
                 padding: 15px;
@@ -104,13 +112,19 @@ and open the template in the editor.
     
     <body>
         <h3>
-         
         </h3>
         
-        <ui> 
-            <li><a class="lien" href="page1tccg.html"> Retour</a></li>
-        </ui>
-    
+        <div class="lien">
+            <ul> 
+                <li><a  href="page1tccg.html"> Acceuil</a></li>
+                <li><a  href="http://adoc.app.fft.fr/adoc/"target="_blanck">Réservations</a></li>
+                <li><a  href="page2.html">Evenements</a></li>
+                <li><a  href="installations.html">Installations</a></li>
+                <li><a  href="https://maps.google.fr/maps?client=firefox-a&hs=DAx&rls=org.mozilla:en-US:official&bav=on.2,or.&bvm=bv.87611401,d.ZGU&biw=1366&bih=633&um=1&ie=UTF-8&fb=1&gl=fr&cid=12862119766595787416&q=tennis+club+montmagny&sa=X&ei=stf5VITOIrLY7Aa8oYC4Dg&ved=0CHMQ_BIwCg&output=classic&dg=brw"target="_blanck">Plan</a></li>
+            </ul>
+        </div>
+
+            
         <div class="paragraphe1">
             <h4><b>L’inscription au club impose l’acceptation et le respect du <a href="http://t.c.c.g.free.fr/si_tccg/docs/reglement_interieur.pdf">Règlement intérieur</a>.</b>
             </h4>
@@ -138,7 +152,7 @@ and open the template in the editor.
             
             <p class="alinea">* d'améliorer leur niveau de jeu tennistique.</p>
             <p class="alinea">* leurs performances en compétition.</p>
-            <p class=alinea>* de participer aux matchs par équipes du club (selon les niveaux, motivation et disponibilité).</p>
+            <p class="alinea">* de participer aux matchs par équipes du club (selon les niveaux, motivation et disponibilité).</p>
 
             Les cours de tennis sont assurés par Vincent (5/6) et Mickael (15/2).
             
